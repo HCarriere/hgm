@@ -1,0 +1,26 @@
+{
+	"apps" : [{
+		"name" : "ares.3001",
+		"script" : "../index.js",
+		"env" : {
+			"SERVER_TYPE": "ares",
+			"PORT": "3001"
+		},
+	},
+	{
+		"name" : "matrix.3002",
+		"script" : "../index.js",
+		"env" : {
+			"SERVER_TYPE": "matrix",
+			"PORT": "3002"
+		},
+	},
+	{
+		"name" : "palpatine.3003",
+		"script" : "../index.js",
+		"env" : {
+			"SERVER_TYPE": "palpatine",
+			"PORT": "3003"
+		},
+	}]
+}
