@@ -19,7 +19,7 @@ function createUser(req, callback) {
 
 function getUsers(req, callback) {
     console.log('getting users...')
-    User.find({}).exec((data) => {
+    User.find().exec((err, data) => {
         callback(data);
     });
 }

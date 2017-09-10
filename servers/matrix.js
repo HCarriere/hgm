@@ -22,7 +22,7 @@ function setup(app) {
         });
     })
     
-    .post('/api/user', (req, res) => {
+    .get('/api/user/create', (req, res) => {
         users.createUser(req, (err) => {
             res.json({message: 'created', error: err});
         });
